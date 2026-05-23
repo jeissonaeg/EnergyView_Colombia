@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+.vscode/
+
+# Data and generated outputs
+inputs/raw/*
+!inputs/raw/.gitkeep
+inputs/processed/*
+!inputs/processed/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
